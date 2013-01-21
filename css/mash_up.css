@@ -94,7 +94,7 @@ ul#mash li{
 #box-ctrl li {
   position: relative;
   display: inline-block;
-  margin-right: -4px; /* See: http://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+  margin-right: -4px;
 }
 
 a.left-arrow:after{
@@ -105,3 +105,6 @@ a.right-arrow:after{
   content: ">";
 }
 
+#slide-show{
+  cursor: pointer;
+}

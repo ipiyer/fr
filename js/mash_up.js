@@ -104,6 +104,13 @@
           that.lBox.showLightBox(photoid);
         })
       }
+
+      var slideShow = document.getElementById("slide-show");
+      
+      slideShow.addEventListener("click", function(e){
+        that.lBox.showLightBox();
+      })
+
     }
   }
 

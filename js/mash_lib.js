@@ -37,6 +37,12 @@
         var head = document.head;
         head.appendChild( script );
       }
+      console.log(jsonp.toString());
+
+      var foo = function() {}
+
+      console.log(foo.toString());
+
 
       // creates a doubly linked list
       // Its created to have a easy access 
